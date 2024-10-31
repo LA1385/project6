@@ -1,0 +1,60 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>FORMS ON WEBPAGE</title>
+        </head>
+        <body>
+            <p>You will have to fill out this form to be able to access the ride for the excursion. Please try to fill in the necessary details. Thank you very much.</p>
+            <form>
+               <fieldset>
+                <legend>
+                    <h1><b>Personal details</b></h1>
+                </legend>
+                <label><b>Name:</b></label><br>
+                <input type="text" id="name" placeholder="Enter full name" ><br><br>
+
+                <label><b>Date of birth:</b></label><br>
+                <input type="date" id="DOB"><br><br
+
+                <label><b>Age:</b></label><br>
+                <input type="number" id="Age"><br><br>
+
+                <label><b>Email Id:</b></label><br>
+                <input type="email" id="Email"><br><br>
+
+                <label><b>Password:</b></label><br>
+                <input type="password" id="password"><br><br>
+
+
+                <label><b>Gender:</b></label><br>
+                <input type="radio" id="gen" name="gen" value="male">male
+                <input type="radio" id="gen" name="gen" value="female">female<br><br>
+
+                <label><b>Parents name:</b></label><br>
+                <input type="text" id="name"><br><br>
+
+                <label><b>Parents call id:</b></label><br>
+                <input type="number" id="call Id"><br><br>
+
+                <label><b>Hobbies:</b></label><br>
+                <input type="checkbox" id="Hobbies" name="Reading">Reading
+                <input type="checkbox" id="Hobbies" name="Travelling">Travelling
+                <input type="checkbox" id="Hobbies" name="Exploring new things">Exploring new things
+                <input type="checkbox" id="Hobbies" name="singing">Singing
+                <input type="checkbox" id="Hobbies" name="Playing football">Playing football<br><br>
+
+                <label><b>Religion:</b></label>
+                <select name="Religion" id="Religion">
+                    <option value="Islam">Islam</option>
+                    <option value="Christianity">Christianity</option>
+                    <option value="Jewish">Jewish</option>
+                    <option value="Atheist">Atheist</option>
+                </select><br><br>
+                <button>submit</button>
+
+                
+
+               </fieldset>
+            </form>
+        </body>
+    </html>

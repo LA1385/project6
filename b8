@@ -1,0 +1,15 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>RESULTS IN MY WEBPAGE</title>
+        </head>
+        <body>
+            <p>This is a fill out exeamination result. So kindly fill in your correct score as it will be confirmed when submitted. Thank you for your support</p>
+            <fieldset>
+                <legend><b><big>Examination Result</big></b></legend>
+                <form>
+                    <label><b>Name:</b></label>
+                </form>
+            </fieldset>
+        </body>
+    </html>
